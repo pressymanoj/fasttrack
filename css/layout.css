@@ -1,0 +1,473 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
+
+body {
+	/*font-family: 'Work Sans', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+.section-bgcolor {
+	padding:80px 0 75px 0;
+}
+
+.intro {
+	background:linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(../images/slide2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100vh;
+}
+
+.navbar-default {
+	background-color:transparent;
+	border-color:transparent;
+	z-index:99;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 25px 0;
+}
+
+.navbar-default .navbar-brand >span {
+	color: #e80909;
+    font-size: 26px;
+}
+
+.navbar-brand>img {
+    max-width: 200px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.nav-links {
+	margin-left:50px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #e80909;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color:#fff;
+}
+
+.navbar-default .navbar-nav > .open > a:hover {
+	color: #e80909;
+}
+
+.dropdown-menu {
+	background-color:#000;
+}
+
+.dropdown-menu>li>a {
+	color:#ccc;
+}
+
+.menu-icon i {
+	background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.menu-icon i:hover {
+    background-color: #e80909;
+	color:#fff;
+}
+
+
+.nav-btn-links {
+	float: right;
+    list-style: none;
+}
+
+.nav-btn-links li {
+    display: inline;
+    float: left;
+}
+
+.nav-btn-links li > p {
+	margin: 30px 10px;
+    color: #fff;
+}
+
+.btn-brochure {
+	background-color: transparent;
+    border-color: #666;
+    color: #ccc;
+    border-radius: 0px;
+    padding: 7px 25px;
+    margin: 25px 0;
+	text-transform:uppercase;
+}
+
+.btn-brochure:hover {
+	color:#e43315;
+}
+
+.btn-brochure:focus, .btn-brochure:active {
+	color:#ccc;
+}
+
+.tyrequote-box {
+	width: 100%;
+    position: absolute;
+    left: 5%;
+    max-width: 460px;
+    bottom: 15%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.quote-specification {
+	margin-bottom:10px;
+}
+
+.quote-specification img {
+	width:100%;
+}
+
+.tyrequote-box .form-control {
+    max-width: 100px;
+    display: inline-block;
+	background-color:transparent;
+	color:#fff;
+}
+
+.tyrequote-box select.form-control > option { 
+	color: #fff;
+	background:#000;
+}
+
+.btn-quote-submit {
+	background-color: #e43315;
+    margin: 15px auto 10px auto;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 7px 25px;
+}
+
+.brands {
+	background-color:#eee;
+}
+
+.main-title {
+	font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub-title {
+	text-align: center;
+    font-size: 25px;
+    margin-bottom: 75px;
+    color: #999;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.red-text {
+	color:#e43315;
+}
+
+.white-text {
+	color:#fff;
+}
+
+.tyre-brands {
+	list-style:none;
+}
+
+.tyre-brands li {
+	display: inline;
+    float: left;
+    padding: 20px 5px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+.tyre-brands li img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+/* Disable grayscale on hover */
+.tyre-brands li img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
+.tyres {
+	background-color: #111;
+	/*background: rgba(0,0,0,1);
+	background: linear-gradient(to bottom,rgba(0,0,0,0.9),rgba(0,0,0,0.7));*/
+    text-align: center;
+}
+
+.tyre-col-inner {
+	text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #222;
+}
+
+.tyre-col-inner h3 {
+	font-size: 22px;
+    text-transform: uppercase;
+    color: #ccc;
+    font-weight: 500;
+    background-color: #333;
+    padding: 8px 0;
+}
+
+.tyre-col-inner h4 {
+	color: #fb7a71;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.tyre-col-inner img {
+	width:100%;
+}
+
+.btn-red {
+	background-color: #d0371d;
+    margin: 15px auto 10px auto;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 7px 25px;
+	max-width:200px;
+}
+
+.testimonials {
+	/*background-image:url(../images/bg1.jpg);*/
+	background:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/bg1.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	min-height:550px;
+	position:relative;
+}
+
+.testimonials h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 85px;
+    font-weight: 800;
+    /* font-style: italic; */
+    padding: 150px 0 0 0;
+    text-transform: uppercase;
+}
+
+.testimonials h2 {
+    color: #fb7a71;
+    font-size: 75px;
+    font-weight: 800;
+    /* font-style: italic; */
+    padding: 0px 0 50px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.testimonials-wrapper {
+	position: absolute;
+    bottom: -100px;
+    max-width: 900px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	z-index:9;
+}
+
+.testimonial-col {
+	
+}
+
+.testimonial-col-inner {
+	background-color: #fff;
+    padding: 10%;
+    min-height: 240px;	
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.user-icon {
+	max-width: 50px;
+    border: 1px solid #ccc;
+}
+
+.testimonial-quote {
+	font-style: italic;
+    line-height: 1.5;
+    font-size: 13px;
+    min-height: 100px;
+}
+
+.testimonial-author {
+	font-size: 14px;
+    margin-bottom: 0;
+    color: #e02525;	
+}
+
+.testimonial-company {
+	font-size: 14px;
+    text-transform: uppercase;
+}
+
+.testimonials-bottom {
+	background-color: #eee;
+    min-height: 250px;
+    position: relative;
+}
+
+.prompt {
+	position: absolute;
+    bottom: -25px;
+    background-color: #8a312a;
+    padding: 25px;
+    text-align: center;
+    font-size: 23px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    max-width: 1000px;
+    color: #eee;
+}
+
+.footer-top {
+    background-color: #181818;
+    color: #5b5b5b;
+    padding: 50px 0;
+	font-size:16px;
+}
+
+.footer-services ul {
+    padding-left: 20px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.footer-services ul li {
+   	position: relative;
+    line-height: 1.8;
+}
+
+.footer-services ul > li:before {
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+	font-weight:900;
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -1.2em;
+    top: 0;
+}
+
+.footer-top h3 {
+	text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #aaa;
+}
+
+.footer-top p {
+	word-wrap:break-word;
+}
+
+.footer-contact i {
+	color:#666;
+	padding-right:10px;	
+}
+
+.footer-bottom {
+    background-color: #222;
+    color: #999;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    /* font-size: 13px; */
+}
+
+.footer-bottom a {
+	color: #a92626;
+}
+
+@media (max-width: 767px) {
+	
+	.navbar-default {
+		background-color:#000;
+	}
+	
+	.navbar-default .navbar-brand {
+		font-size: 22px;
+    	padding: 20px 10px;
+	}
+	
+	.navbar-default .navbar-brand >span {
+		font-size: 24px;
+	}
+	
+	.nav-links {
+		margin-left:0px;
+	}
+	
+	.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+		padding-top:15px;
+		padding-bottom:15px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	.nav-btn-links {
+		float: left;
+		padding-left: 10px;
+	}
+	
+	.btn-brochure {
+		margin: 10px 0;
+	}
+
+	
+	.tyrequote-box {
+		left: 0%;
+		bottom: 0%;
+	}
+}
+
+
+
